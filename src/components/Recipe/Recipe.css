@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+  }
+  
+  .left-panel, .right-panel {
+    flex-grow: 1;
+    min-width: 50%; /* Allow content to overflow if needed */
+    /* border: 1px solid #ccc; */
+  }
+  
+  .container[data-v-7daf9cee] {
+      display: flex;
+      background-color: white;
+      margin: 15px;
+      border-radius: 18px;
+      /* align-items: center; */
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1090px;
+  }
+  h1 {
+    padding: 20px 10px 10px 25px;
+    text-align: left;
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+}
+.li-recipe {
+    background-color: #f1f2f4;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 7px;
+    border-left-color: #00cd68;
+    border-left-width: 6px;
+    /* border-color: #f1f2f4; */
+    color: black;
+    text-align: left;
+}
+.recipe-menu {
+    margin-top: 43px;
+}
+
+
+
+/* table */
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 11px;
+  background-color: white;
+}
+.sm\:rounded-lg {
+  border-radius: 0.5rem;
+  /* margin-left: auto; */
+  margin-left: 12px;
+}
+.dark\:bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: #f1f2f4;
+  border-color: white;
+}
+.dark\:bg-gray-800:hover {
+  background-color: #c1c1c297;
+}
+.dark\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(44 44 46);
+}
+input[type="checkbox"] {
+  accent-color: #00cd68;
+}
+input[type="checkbox"]::before {
+  background-color: rgb(255, 255, 255);
+}
+input[type="checkbox"]:hover {
+  color: rgb(201, 191, 191);
+}
+.checkmark {
+  /* position: absolute;
+  top: 0;
+  left: 0;*/
+  height: 25px;
+  width: 25px; 
+  background-color: red;
+}
+.topic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.save {
+  --tw-bg-opacity: 1;
+  background-color: #00cd68;
+  border-width: 3px;
+  border-color: #00cd68;
+  padding: 4px 25px 8px 25px;
+  margin: 11px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+.save:hover{
+  background-color: #ffffff;
+  border-width: 3px;
+  border-color: #00cd68;
+  color: #00cd68;
+}

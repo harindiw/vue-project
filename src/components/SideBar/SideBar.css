@@ -1,0 +1,45 @@
+.rounded-full {
+    border-radius: 50px;
+}
+
+.w-10 {
+    width: 0.5rem;
+}
+
+.h-10 {
+    height: 1.5rem;
+}
+
+.stroke-current {
+    stroke: #75767a;
+}
+.stroke-current:hover {
+    stroke: #00cd68;
+}
+
+.flex{
+    background-color: #f3f4f6;
+}
+
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: #f3f4f6;
+}
+.h-10 {
+    height: 1.5rem;
+}
+.w-10 {
+    width: 1.5rem;
+}
+nav.flex.flex-1.flex-col.gap-y-4.pt-10 {
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+.pt-10 {
+    margin-top: 2.5rem;
+}
+
+.stroke-current:active{
+    color: #00cd68;
+}
