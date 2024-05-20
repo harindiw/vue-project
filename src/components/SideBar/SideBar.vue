@@ -26,7 +26,7 @@ defineProps({
 
     <aside class="flex h-screen w-20 flex-col items-center border-r border-gray-200 ">
       <div class="flex h-[4.5rem] w-full items-center justify-center border-b border-gray-200 p-2">
-        <img src="../../assets/img/logo.png" />
+        <img src="../../assets/img/Logo.png" />
       </div>
       <nav class="flex flex-1 flex-col gap-y-4 pt-10">
         <a href="/ingredient" :class="{ 'active-icon': activePage === 'layouts' }" @click="setActivePage('layouts')" class="group relative rounded-xl p-2">
@@ -60,6 +60,8 @@ defineProps({
             </div>
           </div> -->
         </a>
+
+        
       </nav>
 
       <div class="flex flex-col items-center gap-y-4 py-10">
@@ -77,13 +79,13 @@ defineProps({
   color: #888;
 }
 .active-icon .stroke-current {
-  stroke: #00cd68;
+  stroke: #01CF6D;
 }
 .stroke-current {
     stroke: #75767a;
 }
 .text-gray-400{
-  color: #00cd68;
+  color: #01CF6D;
 }
 
 </style>

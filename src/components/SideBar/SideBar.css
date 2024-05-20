@@ -14,7 +14,7 @@
     stroke: #75767a;
 }
 .stroke-current:hover {
-    stroke: #00cd68;
+    stroke: #01CF6D;
 }
 
 .flex{
@@ -41,5 +41,5 @@ nav.flex.flex-1.flex-col.gap-y-4.pt-10 {
 }
 
 .stroke-current:active{
-    color: #00cd68;
+    color: #01CF6D;
 }

@@ -58,9 +58,9 @@ import './Ingredient.css'
 @media (prefers-color-scheme: dark) {
     .dark\:bg-blue-600 {
         --tw-bg-opacity: 1;
-        background-color: #00cd68;
+        background-color: #01CF6D;
         border-width: 3px;
-    border-color: #00cd68;
+    border-color: #01CF6D;
         margin-left: -336px;
         border-radius: 50px;
     }
@@ -68,10 +68,10 @@ import './Ingredient.css'
         --tw-bg-opacity: 1;
         background-color: #ffffff;
         border-width: 3px;
-    border-color: #00cd68;
+    border-color: #01CF6D;
         margin-left: -336px;
         border-radius: 50px;
-        color: #00cd68;
+        color: #01CF6D;
     }
 }
 h1{
@@ -85,17 +85,17 @@ h1{
     --tw-bg-opacity: 1;
     background-color: #ffffff;
     border-width: 3px;
-    border-color: #00cd68;
+    border-color: #01CF6D;
     /* margin-left: -336px; */
     border-radius: 50px;
-    color: #00cd68;
+    color: #01CF6D;
     margin-top: 9px;
 }
 .print[data-v-7daf9cee]:hover {
     --tw-bg-opacity: 1;
-    background-color: #00cd68;
+    background-color: #01CF6D;
     border-width: 3px;
-    border-color: #00cd68;
+    border-color: #01CF6D;
     /* margin-left: -336px; */
     border-radius: 50px;
     color: white;
